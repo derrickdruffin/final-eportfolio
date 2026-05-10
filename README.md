@@ -59,4 +59,6 @@ VITE_API_BASE_URL=http://localhost:5000
 See docs/deployment-notes.md for full deployment instructions.
 
 ## Live URL
-Coming soon after deployment.
+## Live URLs
+- **Frontend:** https://final-eportfolio-client-f5qp.onrender.com
+- **Backend:** https://final-eportfolio-backend-fwyp.onrender.com
