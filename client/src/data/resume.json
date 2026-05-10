@@ -1,0 +1,108 @@
+{
+  "education": [
+    {
+      "id": 1,
+      "degree": "MS in Computer Information Systems",
+      "institution": "Florida Institute of Technology",
+      "year": "Expected 2026",
+      "bullets": [
+        "Pursuing advanced studies in web development, cybersecurity, and software engineering",
+        "Maintaining academic excellence while serving full time in the US Air Force"
+      ]
+    },
+    {
+      "id": 2,
+      "degree": "BS in Sports Management",
+      "institution": "American Military University",
+      "year": "2021",
+      "bullets": [
+        "Studied sports business, marketing, and organizational management",
+        "Graduated while serving full time in the US Air Force"
+      ]
+    },
+    {
+      "id": 3,
+      "degree": "AAS in Pharmacy Technology",
+      "institution": "Community College of the Air Force (CCAF)",
+      "year": "2015",
+      "bullets": [
+        "Completed pharmacy technician training through the Air Force medical pipeline",
+        "Earned certification as a licensed Pharmacy Technician"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "position": "Pharmacy Technician / Military Service Member",
+      "employer": "United States Air Force",
+      "dates": "November 2013 – Present",
+      "bullets": [
+        "Managed medication dispensing for over 143,000 military beneficiaries",
+        "Led pharmacy overhaul initiative worth $38,000 in medications",
+        "Coordinated Phase II student transportation across Eglin AFB",
+        "Led squadron awards team to submit 15 packages 5 days ahead of schedule"
+      ]
+    },
+    {
+      "id": 2,
+      "position": "Crew Member",
+      "employer": "Zaxby's",
+      "dates": "July 2012 – November 2013",
+      "bullets": [
+        "Provided customer service in a fast paced food service environment",
+        "Maintained food safety and quality standards"
+      ]
+    },
+    {
+      "id": 3,
+      "position": "Sales Associate",
+      "employer": "Walmart",
+      "dates": "May 2012 – July 2012",
+      "bullets": [
+        "Assisted customers with product selection and purchases",
+        "Maintained store displays and inventory"
+      ]
+    },
+    {
+      "id": 4,
+      "position": "Sales Associate",
+      "employer": "Foot Locker",
+      "dates": "June 2010 – April 2012",
+      "bullets": [
+        "Provided customer service and footwear expertise",
+        "Consistently met and exceeded sales targets"
+      ]
+    }
+  ],
+  "skills": [
+    "Python (Beginner)",
+    "Java (Beginner)",
+    "CompTIA A+",
+    "CompTIA Network+",
+    "CompTIA Security+",
+    "Certified Pharmacy Technician (PTCB)",
+    "Certified Sterile Products Technician (CSPT)",
+    "Military Leadership & Team Management",
+    "Project Coordination",
+    "Time Management"
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "AFMS Pharmacy Technician NCO of the Year",
+      "year": "2024",
+      "bullets": [
+        "Recognized as the top pharmacy technician NCO across the Air Force Medical Service"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "SAFP Pharmacy Technician of the Year",
+      "year": "2021",
+      "bullets": [
+        "Awarded top pharmacy technician of the year across the entire Air Force"
+      ]
+    }
+  ]
+}

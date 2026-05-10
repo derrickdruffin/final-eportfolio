@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "ePortfolio Website",
+    "description": "A personal ePortfolio built with React and Vite showcasing my skills and projects.",
+    "technologies": ["React", "Vite", "CSS"],
+    "link": ""
+  },
+  {
+    "id": 2,
+    "title": "Volume Calculator",
+    "description": "A web app that calculates the volume and surface area of a rectangular parallelepiped.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "link": ""
+  },
+  {
+    "id": 3,
+    "title": "Express Backend Server",
+    "description": "A Node.js/Express backend server with REST API endpoints and form validation.",
+    "technologies": ["Node.js", "Express", "JavaScript"],
+    "link": ""
+  }
+]

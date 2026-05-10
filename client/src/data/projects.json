@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Pharmacy Overhaul",
+    "description": "Led a comprehensive revamp of the pharmacy dispensing area, resulting in a complete overhaul of $38,000 worth of medications. This initiative directly impacted the care and medication management for over 143,000 military beneficiaries, improving efficiency, accuracy, and overall patient safety within the pharmacy operations at Eglin AFB.",
+    "image": "pharmacy-overhaul.jpeg"
+  },
+  {
+    "id": 2,
+    "title": "Squadron Awards Team",
+    "description": "Led a team of three personnel to collect, organize, and submit 15 military award packages for leadership review. Through effective coordination and time management, the team completed and submitted all packages five days ahead of the official deadline, demonstrating strong leadership, attention to detail, and commitment to mission success.",
+    "image": "awards-team.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "Pharmacy Phase II Coordination",
+    "description": "Coordinated directly with the Logistics Readiness Squadron to establish a Government-Owned Vehicle (GOV) for Phase II pharmacy students, ensuring reliable transportation across the largest Air Force base in the United States. This initiative significantly reduced the risk of students missing critical training, supporting mission readiness and educational continuity.",
+    "image": "pharmacy-phase2.jpeg"
+  }
+]

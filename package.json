@@ -1,0 +1,16 @@
+{
+  "name": "final-eportfolio",
+  "version": "1.0.0",
+  "description": "Full-stack MERN ePortfolio - Derrick Ruffin",
+  "scripts": {
+    "server": "cd server && node server.js",
+    "client": "cd client && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "cd client && npm run build"
+  },
+  "author": "Derrick Ruffin",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

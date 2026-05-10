@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "title": "Programming Languages",
+    "skills": ["Python (Beginner)", "Java (Beginner)"]
+  },
+  {
+    "id": 2,
+    "title": "IT Certifications",
+    "skills": ["CompTIA A+", "CompTIA Network+", "CompTIA Security+"]
+  },
+  {
+    "id": 3,
+    "title": "Healthcare Certifications",
+    "skills": [
+      "Certified Pharmacy Technician (PTCB)",
+      "Certified Sterile Products Technician (CSPT) — Inpatient"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Professional & Leadership Skills",
+    "skills": [
+      "Military Leadership & Team Management",
+      "Project Coordination",
+      "Attention to Detail",
+      "Time Management",
+      "Communication & Briefing"
+    ]
+  }
+]

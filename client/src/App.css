@@ -1,0 +1,311 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #1a3a5c;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+header h1 {
+  background: linear-gradient(to right, #4fc3f7, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0;
+}
+
+header nav ul li {
+  display: flex;
+}
+
+header nav ul li a {
+  display: block;
+  padding: 8px 16px;
+  color: #ffffff;
+  text-decoration: none;
+  border: 2px solid #4fc3f7;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+header nav ul li a:hover {
+  border-color: #ff9800;
+  color: #ff9800;
+}
+
+header nav ul li a.active {
+  background-color: #4fc3f7;
+  color: #1a3a5c;
+  font-weight: bold;
+}
+
+main {
+  flex: 1;
+  padding: 30px 40px;
+}
+
+main h2 {
+  margin-bottom: 20px;
+  color: #1a3a5c;
+}
+
+main p {
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+main a {
+  color: #1a3a5c;
+}
+
+footer {
+  background-color: #1a3a5c;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+footer p {
+  color: #ffffff;
+}
+
+footer nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+footer nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.9em;
+  transition: color 0.2s;
+}
+
+footer nav ul li a:hover {
+  color: #ff9800;
+}
+
+footer nav ul li a.active {
+  color: #4fc3f7;
+  font-weight: bold;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.skill-group {
+  flex: 1 1 250px;
+}
+
+.skill-group h3 {
+  margin-bottom: 10px;
+  color: #1a3a5c;
+}
+
+.skill-group ul {
+  padding-left: 20px;
+  line-height: 2;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.project-card {
+  flex: 1 1 280px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.project-card h3 {
+  margin-bottom: 10px;
+  color: #1a3a5c;
+}
+
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.resume-section {
+  margin-bottom: 30px;
+}
+
+.resume-section h3 {
+  color: #1a3a5c;
+  border-bottom: 2px solid #4fc3f7;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+
+table th {
+  background-color: #1a3a5c;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.contact-form {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-form label {
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #1a3a5c;
+  margin-bottom: 2px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, serif;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #4fc3f7;
+}
+
+.contact-form button {
+  padding: 10px;
+  background-color: #1a3a5c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.contact-form button:hover {
+  background-color: #4fc3f7;
+  color: #1a3a5c;
+}
+
+.contact-info {
+  flex: 1 1 200px;
+  line-height: 2;
+}
+
+.contact-info h3 {
+  color: #1a3a5c;
+  margin-bottom: 10px;
+}
+
+.error-msg {
+  color: #ff4444;
+  font-size: 0.85em;
+  margin-top: 2px;
+}
+
+@media (max-width: 768px) {
+  header {
+    align-items: stretch;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  header nav ul li a {
+    display: block;
+    width: 100%;
+  }
+
+  footer {
+    align-items: stretch;
+  }
+
+  footer nav ul {
+    flex-direction: column;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  .project-card {
+    display: block;
+    width: 100%;
+  }
+
+  .project-card img {
+    display: block;
+    width: 100%;
+  }
+
+  .skills-container,
+  .projects-container,
+  .contact-container {
+    flex-direction: column;
+  }
+}
